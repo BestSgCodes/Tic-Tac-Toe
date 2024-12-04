@@ -36,7 +36,7 @@ A classic two-player Tic Tac Toe game with a clean and responsive design. This p
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/tic-tac-toe.git
+   git clone https://github.com/BestSgCodes/tic-tac-toe.git
 2. Extract all the folders in a single folder.
 3. Open index.html in your favorite browser.
    
