@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(6,1,88,1) 0%, rgba(14,14,170,1) 35%, rgba(6,1,88,1) 100%);
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header {
+    margin-top: 30px;
+}
+
+header h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.rules-container {
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: transparent; /* Transparent white for contrast */
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.rules-container h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.rules-container ul {
+    list-style-type: none;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.rules-container ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 30px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.rules-container ul li::before {
+    content: "•";
+    color: #ffcc00; /* Gold bullet points */
+    position: absolute;
+    left: 0px;
+    font-size: 24px;
+}
+
+.rules-container ul span {
+    color: yellow;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 18px;
+    border-top: 2px solid white;
+    padding: 10px 0px;
+}
