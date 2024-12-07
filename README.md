@@ -10,7 +10,6 @@ A classic two-player Tic Tac Toe game with a clean and responsive design. This p
 2. Animated visuals for player symbols and transitions.
 3. Stylish gradient blue background with a white-bordered grid.
 4. Smooth animations for player symbols and hover effects.
-5. Clear reset functionality for starting new games easily.
 
 ---
 
